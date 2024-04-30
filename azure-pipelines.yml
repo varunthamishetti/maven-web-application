@@ -18,6 +18,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    pathToPublish: '$(System.DefaultWorkingDirectory)//home/vsts/work/1/s/target/maven-web-application.war'
+    pathToPublish: '$(System.DefaultWorkingDirectory)'
     artifactName: 'my-java-artifact'
     publishLocation: 'Container'
