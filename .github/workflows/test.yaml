@@ -8,10 +8,7 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v4
-
-    - name: listing files
-      run: ls
-
-    - name: Read file
-      run: cat pom.xml
-      
+    - name: List And Read Files
+      run: |
+        ls
+        cat pom.xml
