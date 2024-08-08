@@ -11,4 +11,7 @@ jobs:
 
     - name: listing files
       run: ls
+
+    - name: Read file
+      run: cat pom.xml
       
