@@ -1,0 +1,14 @@
+name: Testing CheckOut
+
+on: push
+
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4
+    - name: shellscript test
+      run: |
+        ls
+        sh shellscript.sh
